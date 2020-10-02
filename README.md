@@ -6,10 +6,10 @@ A Strapi template to create Strapi projects pre-configured for portfolio sites.
 
 ```bash
 # Using Yarn
-yarn create strapi-app my-app-name https://github.com/strapi/strapi-template-portfolio
+yarn create strapi-app my-app-name --template https://github.com/strapi/strapi-template-portfolio
 
 # Or using NPM
-npx create-strapi-app my-app-name https://github.com/strapi/strapi-template-portfolio
+npx create-strapi-app my-app-name --template https://github.com/strapi/strapi-template-portfolio
 ```
 
 ## Starters
