@@ -1,0 +1,42 @@
+{
+  "name": "demo-ecommerce",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "<0.20.0",
+    "parse-database-url": "^0.3.0",
+    "pg": "^8.4.0",
+    "strapi": "3.2.1",
+    "strapi-admin": "3.2.1",
+    "strapi-connector-bookshelf": "3.2.1",
+    "strapi-plugin-content-manager": "3.2.1",
+    "strapi-plugin-content-type-builder": "3.2.1",
+    "strapi-plugin-email": "3.2.1",
+    "strapi-plugin-graphql": "3.2.1",
+    "strapi-plugin-upload": "3.2.1",
+    "strapi-plugin-users-permissions": "3.2.1",
+    "strapi-provider-upload-aws-s3": "3.2.1",
+    "strapi-utils": "3.2.1",
+    "fs-extra": "^9.0.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "524568d3-24e5-4f84-8a1b-6d9b021f2e83",
+    "template": "https://github.com/strapi/strapi-template-portfolio"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
