@@ -1,8 +1,0 @@
-{
-  "package": {
-    "dependencies": {
-      "fs-extra": "^9.0.1",
-      "strapi-plugin-graphql": "3.2.5"
-    }
-  }
-}
