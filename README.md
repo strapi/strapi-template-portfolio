@@ -1,3 +1,9 @@
+**:no_entry: Deprecated**
+
+This repository is no longer maintained and only works for Strapi v3. To find the newest Strapi v4 templates, check out the [starters-and-templates monorepo](https://github.com/strapi/starters-and-templates/).
+
+---
+
 # strapi-template-portfolio
 
 A Strapi template to create Strapi projects pre-configured for portfolio sites.
@@ -5,11 +11,7 @@ A Strapi template to create Strapi projects pre-configured for portfolio sites.
 ## Usage
 
 ```bash
-# Using Yarn
-yarn create strapi-app my-app-name --template https://github.com/strapi/strapi-template-portfolio
-
-# Or using NPM
-npx create-strapi-app my-app-name --template https://github.com/strapi/strapi-template-portfolio
+npx create-strapi-app@3 my-app-name --template https://github.com/strapi/strapi-template-portfolio
 ```
 
 ## Starters
